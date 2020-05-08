@@ -8,13 +8,15 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice1", "Microservice1", "{779680D3-A028-4EA6-A665-6EA6361939C1}"
 	ProjectSection(SolutionItems) = preProject
 		Microservices\Microservice1\Dockerfile = Microservices\Microservice1\Dockerfile
+		Microservices\Microservice1\kubedeployment-service.yml = Microservices\Microservice1\kubedeployment-service.yml
+		Microservices\Microservice1\kubedeployment.yml = Microservices\Microservice1\kubedeployment.yml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice2", "Microservice2", "{D8050617-E7A6-4ACF-AF05-007796CB17B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceOne", "Microservices\Microservice1\MicroserviceOne\MicroserviceOne.csproj", "{20591223-CC4E-418A-B6EE-8F86D724797D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceOne", "Microservices\Microservice1\MicroserviceOne\MicroserviceOne.csproj", "{20591223-CC4E-418A-B6EE-8F86D724797D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceTwo", "Microservices\Microservice2\MicroserviceTwo\MicroserviceTwo.csproj", "{64552DDC-9AB0-40B5-9A83-DE03578D7B39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceTwo", "Microservices\Microservice2\MicroserviceTwo\MicroserviceTwo.csproj", "{64552DDC-9AB0-40B5-9A83-DE03578D7B39}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceOne.Domain", "Microservices\Microservice1\MicroserviceOne.Domain\MicroserviceOne.Domain.csproj", "{3DD92790-B063-4BA4-A043-24C21E535959}"
 EndProject
